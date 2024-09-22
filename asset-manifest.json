@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/cray2/static/js/main.fd2eb4d4.js",
-    "index.html": "/cray2/index.html",
-    "main.fd2eb4d4.js.map": "/cray2/static/js/main.fd2eb4d4.js.map"
+    "main.js": "/tray2/static/js/main.5e747b45.js",
+    "index.html": "/tray2/index.html",
+    "main.5e747b45.js.map": "/tray2/static/js/main.5e747b45.js.map"
   },
   "entrypoints": [
-    "static/js/main.fd2eb4d4.js"
+    "static/js/main.5e747b45.js"
   ]
 }
