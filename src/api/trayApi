@@ -1,0 +1,26 @@
+// src/api/trayApi.ts
+import axios from 'axios';
+
+const API_BASE_URL = 'http://your-api-base-url.com'; // APIのベースURLを設定してください
+
+export const uploadTray = async (data: any) => {
+  try {
+    const response = await axios.post(`${API_BASE_URL}/tray/save`, data);
+    return response.data;
+  } catch (error) {
+    console.error('Error uploading tray:', error);
+    throw error;
+  }
+};
+
+export const downloadTray = async (filename: string) => {
+  try {
+    const response = await axios.get(`${API_BASE_URL}/tray/load`, {
+      params: { filename },
+    });
+    return response.data;
+  } catch (error) {
+    console.error('Error downloading tray:', error);
+    throw error;
+  }
+};

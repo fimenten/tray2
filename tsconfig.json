@@ -22,5 +22,7 @@
   },
   "include": [
     "src"
-  ]
+  ],
+  "types": ["node", "styled-components"],
+    "moduleResolution": "node"
 }
